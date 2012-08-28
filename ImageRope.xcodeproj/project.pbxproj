@@ -13,6 +13,9 @@
 		FD07F61915EC919900CDD444 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD07F61715EC919900CDD444 /* Credits.rtf */; };
 		FD07F61C15EC919900CDD444 /* G9AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07F61B15EC919900CDD444 /* G9AppDelegate.m */; };
 		FD07F61F15EC919900CDD444 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD07F61D15EC919900CDD444 /* MainMenu.xib */; };
+		FD07F62A15ECA6B300CDD444 /* G9ImageRoper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07F62915ECA6B300CDD444 /* G9ImageRoper.m */; };
+		FD07F63115ECB3F400CDD444 /* NSImage+saveAs.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07F63015ECB3F400CDD444 /* NSImage+saveAs.m */; };
+		FD07F63415ECBAA200CDD444 /* G9DropZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07F63315ECBAA200CDD444 /* G9DropZoneView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,13 @@
 		FD07F61A15EC919900CDD444 /* G9AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G9AppDelegate.h; sourceTree = "<group>"; };
 		FD07F61B15EC919900CDD444 /* G9AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G9AppDelegate.m; sourceTree = "<group>"; };
 		FD07F61E15EC919900CDD444 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FD07F62815ECA6B300CDD444 /* G9ImageRoper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G9ImageRoper.h; sourceTree = "<group>"; };
+		FD07F62915ECA6B300CDD444 /* G9ImageRoper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G9ImageRoper.m; sourceTree = "<group>"; };
+		FD07F62F15ECB3F400CDD444 /* NSImage+saveAs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+saveAs.h"; sourceTree = "<group>"; };
+		FD07F63015ECB3F400CDD444 /* NSImage+saveAs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+saveAs.m"; sourceTree = "<group>"; };
+		FD07F63215ECBAA200CDD444 /* G9DropZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G9DropZoneView.h; sourceTree = "<group>"; };
+		FD07F63315ECBAA200CDD444 /* G9DropZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G9DropZoneView.m; sourceTree = "<group>"; };
+		FD07F63515ECBB6900CDD444 /* G9DropZoneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G9DropZoneDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +92,17 @@
 		FD07F60E15EC919900CDD444 /* ImageRope */ = {
 			isa = PBXGroup;
 			children = (
+				FD07F62815ECA6B300CDD444 /* G9ImageRoper.h */,
+				FD07F62915ECA6B300CDD444 /* G9ImageRoper.m */,
 				FD07F61A15EC919900CDD444 /* G9AppDelegate.h */,
 				FD07F61B15EC919900CDD444 /* G9AppDelegate.m */,
 				FD07F61D15EC919900CDD444 /* MainMenu.xib */,
 				FD07F60F15EC919900CDD444 /* Supporting Files */,
+				FD07F62F15ECB3F400CDD444 /* NSImage+saveAs.h */,
+				FD07F63015ECB3F400CDD444 /* NSImage+saveAs.m */,
+				FD07F63215ECBAA200CDD444 /* G9DropZoneView.h */,
+				FD07F63315ECBAA200CDD444 /* G9DropZoneView.m */,
+				FD07F63515ECBB6900CDD444 /* G9DropZoneDelegate.h */,
 			);
 			path = ImageRope;
 			sourceTree = "<group>";
@@ -169,6 +186,9 @@
 			files = (
 				FD07F61515EC919900CDD444 /* main.m in Sources */,
 				FD07F61C15EC919900CDD444 /* G9AppDelegate.m in Sources */,
+				FD07F62A15ECA6B300CDD444 /* G9ImageRoper.m in Sources */,
+				FD07F63115ECB3F400CDD444 /* NSImage+saveAs.m in Sources */,
+				FD07F63415ECBAA200CDD444 /* G9DropZoneView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
