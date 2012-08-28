@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD07F60915EC919900CDD444 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD07F60815EC919900CDD444 /* Cocoa.framework */; };
+		FD07F61315EC919900CDD444 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD07F61115EC919900CDD444 /* InfoPlist.strings */; };
+		FD07F61515EC919900CDD444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07F61415EC919900CDD444 /* main.m */; };
+		FD07F61915EC919900CDD444 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD07F61715EC919900CDD444 /* Credits.rtf */; };
+		FD07F61C15EC919900CDD444 /* G9AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07F61B15EC919900CDD444 /* G9AppDelegate.m */; };
+		FD07F61F15EC919900CDD444 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD07F61D15EC919900CDD444 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD07F60415EC919900CDD444 /* ImageRope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07F60815EC919900CDD444 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FD07F60B15EC919900CDD444 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FD07F60C15EC919900CDD444 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FD07F60D15EC919900CDD444 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD07F61015EC919900CDD444 /* ImageRope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageRope-Info.plist"; sourceTree = "<group>"; };
+		FD07F61215EC919900CDD444 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD07F61415EC919900CDD444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD07F61615EC919900CDD444 /* ImageRope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageRope-Prefix.pch"; sourceTree = "<group>"; };
+		FD07F61815EC919900CDD444 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FD07F61A15EC919900CDD444 /* G9AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G9AppDelegate.h; sourceTree = "<group>"; };
+		FD07F61B15EC919900CDD444 /* G9AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G9AppDelegate.m; sourceTree = "<group>"; };
+		FD07F61E15EC919900CDD444 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD07F60115EC919900CDD444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07F60915EC919900CDD444 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD07F5F915EC919900CDD444 = {
+			isa = PBXGroup;
+			children = (
+				FD07F60E15EC919900CDD444 /* ImageRope */,
+				FD07F60715EC919900CDD444 /* Frameworks */,
+				FD07F60515EC919900CDD444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD07F60515EC919900CDD444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD07F60415EC919900CDD444 /* ImageRope.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD07F60715EC919900CDD444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD07F60815EC919900CDD444 /* Cocoa.framework */,
+				FD07F60A15EC919900CDD444 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD07F60A15EC919900CDD444 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD07F60B15EC919900CDD444 /* AppKit.framework */,
+				FD07F60C15EC919900CDD444 /* CoreData.framework */,
+				FD07F60D15EC919900CDD444 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FD07F60E15EC919900CDD444 /* ImageRope */ = {
+			isa = PBXGroup;
+			children = (
+				FD07F61A15EC919900CDD444 /* G9AppDelegate.h */,
+				FD07F61B15EC919900CDD444 /* G9AppDelegate.m */,
+				FD07F61D15EC919900CDD444 /* MainMenu.xib */,
+				FD07F60F15EC919900CDD444 /* Supporting Files */,
+			);
+			path = ImageRope;
+			sourceTree = "<group>";
+		};
+		FD07F60F15EC919900CDD444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD07F61015EC919900CDD444 /* ImageRope-Info.plist */,
+				FD07F61115EC919900CDD444 /* InfoPlist.strings */,
+				FD07F61415EC919900CDD444 /* main.m */,
+				FD07F61615EC919900CDD444 /* ImageRope-Prefix.pch */,
+				FD07F61715EC919900CDD444 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD07F60315EC919900CDD444 /* ImageRope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD07F62215EC919900CDD444 /* Build configuration list for PBXNativeTarget "ImageRope" */;
+			buildPhases = (
+				FD07F60015EC919900CDD444 /* Sources */,
+				FD07F60115EC919900CDD444 /* Frameworks */,
+				FD07F60215EC919900CDD444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRope;
+			productName = ImageRope;
+			productReference = FD07F60415EC919900CDD444 /* ImageRope.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD07F5FB15EC919900CDD444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = G9;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = GAE9.COM;
+			};
+			buildConfigurationList = FD07F5FE15EC919900CDD444 /* Build configuration list for PBXProject "ImageRope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD07F5F915EC919900CDD444;
+			productRefGroup = FD07F60515EC919900CDD444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD07F60315EC919900CDD444 /* ImageRope */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD07F60215EC919900CDD444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07F61315EC919900CDD444 /* InfoPlist.strings in Resources */,
+				FD07F61915EC919900CDD444 /* Credits.rtf in Resources */,
+				FD07F61F15EC919900CDD444 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD07F60015EC919900CDD444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07F61515EC919900CDD444 /* main.m in Sources */,
+				FD07F61C15EC919900CDD444 /* G9AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD07F61115EC919900CDD444 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD07F61215EC919900CDD444 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD07F61715EC919900CDD444 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD07F61815EC919900CDD444 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FD07F61D15EC919900CDD444 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD07F61E15EC919900CDD444 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD07F62015EC919900CDD444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD07F62115EC919900CDD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FD07F62315EC919900CDD444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageRope/ImageRope-Prefix.pch";
+				INFOPLIST_FILE = "ImageRope/ImageRope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD07F62415EC919900CDD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageRope/ImageRope-Prefix.pch";
+				INFOPLIST_FILE = "ImageRope/ImageRope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD07F5FE15EC919900CDD444 /* Build configuration list for PBXProject "ImageRope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07F62015EC919900CDD444 /* Debug */,
+				FD07F62115EC919900CDD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD07F62215EC919900CDD444 /* Build configuration list for PBXNativeTarget "ImageRope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07F62315EC919900CDD444 /* Debug */,
+				FD07F62415EC919900CDD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD07F5FB15EC919900CDD444 /* Project object */;
+}
