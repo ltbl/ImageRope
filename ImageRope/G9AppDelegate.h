@@ -21,5 +21,7 @@
 @property (weak) IBOutlet NSTableView *tableView;
 @property (weak) IBOutlet NSTextField *labelInform;
 @property (weak) IBOutlet G9DropZoneView *dropZoneView;
+- (IBAction)doClear:(id)sender;
+- (IBAction)doRope:(id)sender;
 
 @end

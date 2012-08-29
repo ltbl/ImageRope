@@ -42,7 +42,6 @@
     
     [labelInform setStringValue:[[NSString alloc] initWithFormat:@"위의 %ld개의 이미지를 하나의 이미지로 합쳐 %.0lfpx*%.0lfpx 이미지로 만듭니다.", images.count, size.width, size.height]];
     
-    [roper ropeImage:images withHeightSpacing:10 forName:@"/tmp/xyz.jpg"];
 }
 
 - (void)appendToList:(NSString *)path
@@ -80,4 +79,20 @@
     }
 }
 
+- (IBAction)doClear:(id)sender {
+    [images removeAllObjects];
+    [tableView reloadData];
+}
+
+- (IBAction)doRope:(id)sender {
+    if (images.count > 0) {
+        G9ImageRoper *roper = [[G9ImageRoper alloc] init];
+        
+        NSString *desktop = [NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+        NSString *saveTo = [desktop stringByAppendingPathComponent:[NSString stringWithFormat:@"%.f.jpg", [[NSDate date] timeIntervalSince1970]]];
+        
+        [roper ropeImage:images withHeightSpacing:10 forName:saveTo];
+        [[NSWorkspace sharedWorkspace] selectFile:saveTo inFileViewerRootedAtPath:@""];
+    }
+}
 @end
